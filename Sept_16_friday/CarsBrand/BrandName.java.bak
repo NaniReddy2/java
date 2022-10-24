@@ -1,0 +1,35 @@
+import java.util.Scanner;
+class BrandName
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter BrandName");
+		String brand=scan.next();
+		switch(brand)
+		{
+		  case "audi":
+		  case "Audi":System.out.println("Starting 40L");		  
+		  break;
+		  case "Mercedes benz":
+		  case "mercedes Benz":System.out.println("Starting 60L");
+		  break;
+		  case "jagaur":
+		  case "Jaguar":System.out.println("Starting 40L");		  
+		  break;
+		  case "RangeRover":
+		  case "rangerover":System.out.println("Starting 60L");
+          break;
+		  case "Ferari":
+		  case "ferari":System.out.println("Starting 60L");
+		  break;
+		  case "RollsRoyce":
+		  case "rollsroyce":System.out.println("Starting 40L");		  
+		  break;
+		 	
+		 		  
+		  default :System.out.println("Invalid");
+		}
+
+	}
+}

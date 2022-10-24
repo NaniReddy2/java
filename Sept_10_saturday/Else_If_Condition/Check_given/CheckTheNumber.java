@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class CheckTheNumber
+{
+	public static void main(String[] args) 
+	{
+		Scanner nani=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num=nani.nextInt();
+		if (num==143)
+		{
+			System.out.println("Given number is "+num);
+		}
+		else if (num==108)
+		{
+			System.out.println("Given number is "+num);
+		}
+		else if (num==100)
+		{
+			System.out.println("Given number is "+num);
+		}
+	    else 
+		{
+		    System.out.println("Not that number");
+		}
+		
+	}
+}
